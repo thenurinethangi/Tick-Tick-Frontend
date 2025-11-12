@@ -1,9 +1,8 @@
 import React from 'react'
 import NavBar from '../components/navBar'
 import TasksNavBar from '../components/tasksNavBar'
-import NotdoTasks from '../components/notdoTasks'
-import NotdoTasksNote from '../components/notdoTasksNote'
 import DeletedTasks from '../components/deletedTasks'
+import DeletedTasksNote from '../components/deletedTasksNote'
 
 function TrashTasksPage() {
   return (
@@ -12,7 +11,7 @@ function TrashTasksPage() {
       <div className='flex'>
         <TasksNavBar />
         <DeletedTasks />
-        <NotdoTasksNote />
+        <DeletedTasksNote />
       </div>
     </div>
   )

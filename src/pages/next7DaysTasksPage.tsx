@@ -1,8 +1,8 @@
 import React from 'react'
 import NavBar from '../components/navBar'
 import TasksNavBar from '../components/tasksNavBar'
-import TodayTasksAdd from '../components/todayTasksAdd'
-import TodayTasksNote from '../components/todayTasksNote'
+import Next7DaysTasksAdd from '../components/next7daysTasksAdd'
+import Next7DaysTasksNote from '../components/next7DaysTasksNote'
 
 function Next7DaysTasksPage() {
   return (
@@ -10,8 +10,8 @@ function Next7DaysTasksPage() {
       <NavBar />
       <div className='flex'>
         <TasksNavBar />
-        <TodayTasksAdd />
-        <TodayTasksNote />
+        <Next7DaysTasksAdd />
+        <Next7DaysTasksNote />
       </div>
     </div>
   )

@@ -1,18 +1,20 @@
 import React from 'react'
-import profiledefault from '../assets/profile-pic-default-01.jpg'
-import editicon from '../assets/pen.png'
-import profiledefault1 from '../assets/user (3).png'
-import editicon1 from '../assets/pen (1).png'
+import profiledefault from '../assets/user (3).png'
+import editicon from '../assets/pen (1).png'
+import {LogOut} from "lucide-react";
 
 function Profile() {
   return (
-    <div style={{padding: '17px 20px 20px 22px'}}>
-        <h1 className='font-bold text-[20px] tracking-[0.04em]' style={{fontFamily: 'Inter'}}>Profile</h1>
-        <div className='shadow-xl rounded-[5px]' style={{padding: '15px 40px 40px 40px', marginLeft: '357px'}}>
+    <div style={{padding: '17px 20px 20px 22px'}} className='w-full'>
+        <div className='flex justify-between items-center w-full'>
+            <h1 className='font-bold text-[20px] tracking-[0.04em]' style={{fontFamily: 'Inter'}}>Profile</h1>
+            <LogOut className="w-5.5 h-5.5 text-gray-500" style={{marginRight: '10px'}} />
+        </div>
+        <div className='shadow-xl rounded-[5px] w-[400px]' style={{padding: '15px 40px 40px 40px', marginLeft: '365px'}}>
             <form className='flex flex-col justify-center items-center gap-5 shadow-xl rounded-xl' style={{padding: '40px 34px 30px 34px'}}>
                 <div className='relative'>
-                    <img src={profiledefault1} width={130}></img>
-                    <img src={editicon1} width={30} className='absolute right-3 top-25'></img>
+                    <img src={profiledefault} width={130}></img>
+                    <img src={editicon} width={30} className='absolute right-3 top-25'></img>
                     <input type='file' accept='image/*' className='absolute top-0 w-[130px] h-[130px] opacity-0'></input>
                 </div>
                 <div>

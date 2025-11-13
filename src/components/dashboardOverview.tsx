@@ -2,7 +2,7 @@ import React from 'react'
 
 function DashboardOverview() {
   return (
-    <div style={{padding: '33px 17px', marginBottom: '16px'}} className='shadow-2xl rounded-[12px]'>
+    <div style={{padding: '30px 17px', marginBottom: '16px'}} className='shadow-xl rounded-[12px]'>
         <h1 className='text-[14.5px] font-semibold tracking-[0.01em] text-black opacity-85'>Overview</h1>
         <div className='flex justify-around items-center'>
 

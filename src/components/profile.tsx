@@ -1,16 +1,18 @@
 import React from 'react'
 import profiledefault from '../assets/profile-pic-default-01.jpg'
 import editicon from '../assets/pen.png'
+import profiledefault1 from '../assets/user (3).png'
+import editicon1 from '../assets/pen (1).png'
 
 function Profile() {
   return (
     <div style={{padding: '17px 20px 20px 22px'}}>
         <h1 className='font-bold text-[20px] tracking-[0.04em]' style={{fontFamily: 'Inter'}}>Profile</h1>
-        <div className='' style={{padding: '15px 40px 40px 40px', marginLeft: '380px'}}>
-            <form className='flex flex-col justify-center items-center gap-5 shadow-2xl rounded-xl' style={{padding: '40px 30px 30px 30px'}}>
+        <div className='shadow-xl rounded-[5px]' style={{padding: '15px 40px 40px 40px', marginLeft: '357px'}}>
+            <form className='flex flex-col justify-center items-center gap-5 shadow-xl rounded-xl' style={{padding: '40px 34px 30px 34px'}}>
                 <div className='relative'>
-                    <img src={profiledefault} width={130}></img>
-                    <img src={editicon} width={30} className='absolute right-0 bottom-0'></img>
+                    <img src={profiledefault1} width={130}></img>
+                    <img src={editicon1} width={30} className='absolute right-3 top-25'></img>
                     <input type='file' accept='image/*' className='absolute top-0 w-[130px] h-[130px] opacity-0'></input>
                 </div>
                 <div>

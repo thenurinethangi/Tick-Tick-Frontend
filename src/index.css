@@ -16,3 +16,11 @@ body{
     font-family: "Inter", "Noto Sans Arabic", sans-serif;
 }
 
+a.active > div{
+    background-color: #f3f4f6; 
+}
+
+a.active > .nav{
+    color: #4772FA; 
+}
+
